@@ -1,0 +1,4 @@
+.photo__prew-container{
+    display: flex;
+    flex-direction: column;
+}
