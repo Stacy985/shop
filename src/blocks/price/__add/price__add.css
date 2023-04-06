@@ -1,0 +1,25 @@
+.price__add {
+  position: relative;
+  cursor: pointer;
+  background-image: linear-gradient(to right, #000000 85%, #ffffff 85%);
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.price__add::after {
+  position: absolute;
+  right: calc(7.5% - 15px);
+  top: calc(50% - 12px);
+  content: "";
+  width: 24px;
+  height: 24px;
+  background-image: url("../../../images/add.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

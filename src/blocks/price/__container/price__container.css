@@ -1,0 +1,6 @@
+.price__container {
+  padding-top: auto;
+  padding-left: 140px;
+  display: flex;
+  flex-direction: column;
+}

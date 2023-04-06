@@ -1,0 +1,16 @@
+.header__facebok {
+  background: url("../../../images/facebook.svg");
+  outline: none;
+  text-decoration: none;
+  width: 24px;
+  height: 24px;
+  border: none;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  transition: 0.2s linear;
+  background-size: 23px;
+  margin: 0 14px 0 14px;
+}
+.header__facebok:hover {
+  opacity: 0.5;
+}

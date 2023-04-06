@@ -1,0 +1,9 @@
+.header__search {
+  box-sizing: border-box;
+  background: #e7e7e7;
+  border: 1px solid #000000;
+  border-radius: 48px;
+  width: 333px;
+  height: 29px;
+  margin: 0 12px 0 12px;
+}

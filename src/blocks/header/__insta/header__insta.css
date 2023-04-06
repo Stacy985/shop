@@ -1,0 +1,16 @@
+.header__insta {
+  background: url("../../../images/insta.svg");
+  outline: none;
+  text-decoration: none;
+  width: 24px;
+  height: 24px;
+  background-size: 23px;
+  border: none;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  transition: 0.2s linear;
+  margin: 0 14px 0 14px;
+}
+.header__insta:hover {
+  opacity: 0.5;
+}

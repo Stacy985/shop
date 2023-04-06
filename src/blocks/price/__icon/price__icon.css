@@ -1,0 +1,6 @@
+.price__icon{
+    background-image: url('../../../images/arrow.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 398px;
+}

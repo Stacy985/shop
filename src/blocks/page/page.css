@@ -3,5 +3,5 @@
   flex-direction: column;
   justify-content: space-between;
   background: #FFFFFF;
-  
+  min-height: 100vh;
 }

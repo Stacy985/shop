@@ -1,4 +1,6 @@
-.photo__prew-container{
-    display: flex;
-    flex-direction: column;
+.photo__prew-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 118px;
 }
