@@ -1,0 +1,46 @@
+.dark-theme.page {
+  background: #000000;
+}
+
+.dark-theme.link {
+  color: #ffffff;
+}
+.dark-theme.header__facebok {
+  background: url("../../images/facebook_dark.svg");
+  background-repeat: no-repeat;
+  background-size: 23px;
+}
+.dark-theme.header__insta {
+  background: url("../../images/insta_dark.svg");
+  background-repeat: no-repeat;
+  background-size: 23px;
+}
+.dark-theme.header__like {
+  background: url("../../images/like_dark.svg");
+  background-repeat: no-repeat;
+  background-size: 23px;
+}
+.dark-theme.header__theme {
+  background: url("../../images/theme_dark.svg");
+  background-repeat: no-repeat;
+  background-size: 23px;
+}
+.dark-theme.price__title {
+  color: #ffffff;
+}
+.dark-theme.price__subtitle {
+  color: #ffffff;
+}
+
+.dark-theme.button {
+  background: #000000;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+.dark-theme.photo__large {
+  border: 1px solid #ffffff;
+  box-shadow: 7px 13px 0px rgba(255, 255, 255, 0.75);
+}
+.dark-theme.photo__prew {
+  border: 1px solid #ffffff;
+}
