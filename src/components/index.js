@@ -1,6 +1,6 @@
 const themeButton = document.querySelector(".header__theme");
 const page = document.querySelector(".page");
-const link = document.querySelector(".link");
+const search = document.querySelector(".header__search");
 const facebok = document.querySelector(".header__facebok");
 const insta = document.querySelector(".header__insta ");
 const like = document.querySelector(".header__like");
@@ -10,6 +10,14 @@ const button = document.querySelector(".button");
 const photoLarge = document.querySelector(".photo__large");
 const photoPrew = document.querySelector(".photo__prew");
 
+const links = document.querySelectorAll(".link");
+
+links.forEach(function (link) {
+  themeButton.addEventListener("click", function (ex) {
+    links.classList.toggle(".dark-theme");
+  });
+});
+
 /* function darkTheme () {
   const darkMode = localStorage.getItem('page_dark-theme') === true;
   localStorage.setItem('page_dark-theme', !darkMode);
@@ -18,7 +26,6 @@ const photoPrew = document.querySelector(".photo__prew");
 
 themeButton.addEventListener("click", () => {
   page.classList.toggle("dark-theme");
-  link.classList.toggle("dark-theme");
   facebok.classList.toggle("dark-theme");
   insta.classList.toggle("dark-theme");
   like.classList.toggle("dark-theme");
@@ -28,7 +35,5 @@ themeButton.addEventListener("click", () => {
   button.classList.toggle("dark-theme");
   photoLarge.classList.toggle("dark-theme");
   photoPrew.classList.toggle("dark-theme");
-
+  search.classList.toggle("dark-theme");
 });
-
-/*   themeButton.addEventListener('click', darkTheme); */

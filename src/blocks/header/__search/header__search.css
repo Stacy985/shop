@@ -7,8 +7,13 @@
   height: 29px;
   margin: 0 12px 0 12px;
   float: left;
-
+  text-align: center;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
 }
-.header__search::after{
-  background-image: url('../../../images/search.svg')
+.header__search::after {
+  background-image: url("../../../images/search.svg");
 }

@@ -44,3 +44,8 @@
 .dark-theme.photo__prew {
   border: 1px solid #ffffff;
 }
+.dark-theme.header__search {
+  background: #181818;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
