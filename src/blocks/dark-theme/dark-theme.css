@@ -13,12 +13,12 @@
 .dark-theme.header__insta {
   background: url("../../images/insta_dark.svg");
   background-repeat: no-repeat;
-  background-size: 23px;
+  background-size: 22px;
 }
 .dark-theme.header__like {
   background: url("../../images/like_dark.svg");
   background-repeat: no-repeat;
-  background-size: 23px;
+  background-size: 22px;
 }
 .dark-theme.header__theme {
   background: url("../../images/theme_dark.svg");
@@ -47,5 +47,17 @@
 .dark-theme.header__search {
   background: #181818;
   border: 1px solid #ffffff;
-  color: #ffffff;
+}
+.dark-theme.price__icon {
+  background-image: url("../../images/arrow_dark.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-x: 398px;
+}
+.dark-theme.price__add {
+  background-image: linear-gradient(to right, #ffffff 85%, #000000 85%);
+  color: #000000;
+}
+.dark-theme.price__add::after {
+  background-image: url("../../images/add_dark.svg");
 }

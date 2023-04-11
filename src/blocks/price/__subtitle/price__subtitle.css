@@ -6,5 +6,10 @@
   font-size: 22px;
   line-height: 32px;
   color: #000000;
+}
+.price__subtitle:last-of-type {
+  padding-bottom: 83px;
+}
+.price__subtitle:first-of-type {
   padding-bottom: 32px;
 }

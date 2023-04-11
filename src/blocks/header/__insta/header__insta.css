@@ -4,13 +4,12 @@
   text-decoration: none;
   width: 24px;
   height: 24px;
-  background-size: 22px;
+  background-size: 21px;
   border: none;
   cursor: pointer;
   background-repeat: no-repeat;
   transition: 0.2s linear;
   margin: 0 14px 0 14px;
-  margin: auto;
 }
 .header__insta:hover {
   opacity: 0.5;

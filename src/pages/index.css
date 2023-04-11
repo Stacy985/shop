@@ -7,6 +7,7 @@
 @import url(../blocks/link/link.css);
 @import url(../blocks/link/_dark-theme/link_dark-theme.css);
 @import url(../blocks/photo/photo.css);
+@import url(../blocks/photo/__sign/photo__sign.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/photo/__prew/photo__prew.css);
 @import url(../blocks/photo/__large/photo__large.css);

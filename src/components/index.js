@@ -9,9 +9,9 @@ const text = document.querySelector(".price__subtitle");
 const button = document.querySelector(".button");
 const photoLarge = document.querySelector(".photo__large");
 const photoPrew = document.querySelector(".photo__prew");
-
+const iconInButton = document.querySelector(".price__icon");
 const links = document.querySelectorAll(".link");
-
+const buttonAdd = document.querySelector(".price__add");
 links.forEach(function (link) {
   themeButton.addEventListener("click", function (ex) {
     links.classList.toggle(".dark-theme");
@@ -36,4 +36,6 @@ themeButton.addEventListener("click", () => {
   photoLarge.classList.toggle("dark-theme");
   photoPrew.classList.toggle("dark-theme");
   search.classList.toggle("dark-theme");
+  iconInButton.classList.toggle("dark-theme");
+  buttonAdd.classList.toggle("dark-theme");
 });
