@@ -1,5 +1,6 @@
-@import url(../vendor/normalize.css);
-@import url(../vendor/fonts.css);
+@import url(./normalize.css);
+@import url(./fonts.css);
+
 @import url(../blocks/dark-theme/dark-theme.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/_dark-theme/page_dark-theme.css);
@@ -8,6 +9,7 @@
 @import url(../blocks/link/_dark-theme/link_dark-theme.css);
 @import url(../blocks/photo/photo.css);
 @import url(../blocks/photo/__sign/photo__sign.css);
+@import url(../blocks/price/__p-container/price__p-container.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/photo/__prew/photo__prew.css);
 @import url(../blocks/photo/__large/photo__large.css);

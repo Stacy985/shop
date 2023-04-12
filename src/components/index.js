@@ -12,11 +12,11 @@ const photoPrew = document.querySelector(".photo__prew");
 const iconInButton = document.querySelector(".price__icon");
 const links = document.querySelectorAll(".link");
 const buttonAdd = document.querySelector(".price__add");
-links.forEach(function (link) {
-  themeButton.addEventListener("click", function (ex) {
-    links.classList.toggle(".dark-theme");
-  });
-});
+// links.forEach( {
+//   themeButton.addEventListener("click", function () {
+//     link.classList.toggle("dark-theme");
+//   });
+// });
 
 /* function darkTheme () {
   const darkMode = localStorage.getItem('page_dark-theme') === true;
@@ -38,4 +38,8 @@ themeButton.addEventListener("click", () => {
   search.classList.toggle("dark-theme");
   iconInButton.classList.toggle("dark-theme");
   buttonAdd.classList.toggle("dark-theme");
+
+
+  Array.from(links).map((link) => link.classList.toggle('dark-theme'));
+
 });
