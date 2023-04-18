@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <base href="./">
+    <base href="./" />
     <link rel="stylesheet" href="./css/index.css" />
-    
+
     <title>Shop</title>
   </head>
   <body class="page">
     <header class="header">
       <a href="#" class="header__link link">Shop</a>
       <a href="#" class="header__link link">Discover</a>
-      <img src="./images/COMPANY.svg" alt="logo" class="header__img" />
+      <div class="header__logo">COMPANY</div>
       <input type="search" class="header__search" placeholder="Search" />
       <a href="#" class="header__link link">Cart</a>
 
@@ -41,7 +41,11 @@
         <div class="price__container">
           <h1 class="price__title">ITEM NAME</h1>
           <p class="price__subtitle">$235.00</p>
-          <button type="button" class="price__person button" aria-label="personal">
+          <button
+            type="button"
+            class="price__person button"
+            aria-label="personal"
+          >
             Personalise
           </button>
           <button type="button" class="price__add button" aria-label="add">
@@ -55,13 +59,21 @@
           </div>
           <div class="price__p-container">
             <span>&lowast;</span>
-            <p class="price__subtitle">Check availability in boutiques</p>
+            <p class="price__subtitle info">Check availability in boutiques</p>
           </div>
 
-          <button type="button" class="price__material price__icon button" aria-label="material">
+          <button
+            type="button"
+            class="price__material price__icon button"
+            aria-label="material"
+          >
             Material
           </button>
-          <button type="button" class="price__size price__icon button" aria-label="size">
+          <button
+            type="button"
+            class="price__size price__icon button"
+            aria-label="size"
+          >
             Dimensions
           </button>
         </div>

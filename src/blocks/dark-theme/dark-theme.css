@@ -61,3 +61,12 @@
 .dark-theme.price__add::after {
   background-image: url("../../images/add_dark.svg");
 }
+.dark-theme.header__logo {
+  color: #ffffff;
+}
+.dark-theme.footer__item {
+  color: #ffffff;
+}
+.dark-theme.info {
+  color: #ffffff;
+}
